@@ -227,6 +227,7 @@ endif()
 #=============================================================================
 # project definition
 #
+set(CMAKE\_TRY\_COMPILE\_TARGET\_TYPE STATIC\_LIBRARY)
 project(px4 CXX C ASM)
 
 # CMake build type (Debug Release RelWithDebInfo MinSizeRel Coverage)
